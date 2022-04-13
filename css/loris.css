@@ -1,0 +1,32 @@
+body{
+    margin: 0!important;
+}
+
+
+.header{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+
+
+
+.main{
+    position: relative;
+    background-image: url('../img/Mask\ Group\ 1.png');
+    background-position:center ;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 250px 0 220px;
+    
+}
+.main h2,.main h6{
+    color: blanchedalmond;
+
+}
+.main h6{
+    
+    display: inline-block;
+
+   
+}
