@@ -14,11 +14,16 @@ body{
 }
 */
 .course-link{
-    color: rgb(122, 120, 120);
+    color: rgb(211, 201, 201);
     font-size: 0.8em;
     
 }
-
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #606061;
+    text-decoration: none;
+}
 .main{
     position: relative;
     background-image: url('../img/Mask\ Group\ 1.png');
