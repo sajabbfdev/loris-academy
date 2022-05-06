@@ -1,0 +1,92 @@
+body{
+    margin: 0!important;
+    background-color: #fafafc!important;
+}
+
+.header{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+
+
+.main-link{
+    color: rgb(255, 254, 254)!important;
+}
+.course-link{
+    color: rgb(122, 120, 120)!important;
+    font-size: 0.8em;
+    
+}
+.nav-link{
+    display: block;
+    padding: .5rem 1rem;
+    font-size: 00.8em;
+    color: #828385 ;
+    text-decoration: none;
+}
+/*********************Main Section*******************/
+.main{
+    position: relative;
+    background-image: url('../img/Mask\ Group\ 1.png');
+    background-position:center ;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 250px 0 220px;
+    
+}
+.main h2,.main h6{
+    color: rgb(252, 252, 252);
+
+}
+.main h6{
+    display: inline-block;
+}
+.h2-pos{
+    position: relative;
+    left: 2.9em;
+}
+.h6-pos{
+    position: relative;
+    right:2em ;
+}
+.user{
+    font-size: 0.1em;
+}
+/*******slide2*********/
+.slide2 h6,p{
+color: gray;
+}
+.courses{
+    color: blueviolet;
+}
+/*footer*/
+.footer-top-section{
+    background-color:rgb(66, 64, 64);
+    padding: 8px;
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-bottom-section{
+    background-color: black;
+}
+.footer-links{
+    list-style-type: none;
+}
+
+.footer-settings{
+    width: 25%;
+    height: 8em;
+    line-height: 2em;
+    color: rgb(177, 172, 172);
+}
+.h6-style{
+    font-weight:lighter;
+}
+.footer-links a{
+    color: rgb(177, 172, 172);
+    text-decoration: none;
+}
