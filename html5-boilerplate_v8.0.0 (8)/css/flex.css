@@ -1,0 +1,78 @@
+.container {
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 1000px;
+    align-items: stretch;
+    align-content: center;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    line-height: 300px;
+    margin: 3px;
+}
+
+.bg1 {
+    order: 1
+}
+
+.bg2 {
+    order: 2
+}
+
+.bg3 {
+    order: 3;
+}
+
+.bg4 {
+    order: 5
+}
+
+.bg5 {
+    order: 4;
+}
+
+h1 {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: blue;
+    color: white;
+    margin: 100px auto;
+    position: relative;
+}
+
+h1:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    /* width: 30px; */
+    /* height: 50px; */
+    right: 100%;
+    /* background-color: black; */
+    /* border-left: 3px solid red; */
+    border: 25px solid blue;
+    border-left: 30px solid transparent;
+}
+
+h1:after {
+    content: "";
+    position: absolute;
+    /* width: 30px; */
+    /* height: 50px; */
+    left: 100%;
+    /* background-color: black; */
+    /* border-right: 10px solid red; */
+    border: 25px solid blue;
+    border-right: 30px solid transparent;
+}
