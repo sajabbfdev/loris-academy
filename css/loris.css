@@ -2,14 +2,11 @@ body{
     margin: 0!important;
     background-color: #fafafc!important;
 }
-
 .header{
     position: absolute;
     z-index: 100;
     width: 100%;
 }
-
-
 .main-link{
     color: rgb(255, 254, 254)!important;
 }
@@ -53,12 +50,58 @@ body{
 .user{
     font-size: 0.1em;
 }
+/*********Internship********/
+.main-intern{
+    position: relative;
+    top: 2em;
+}
+.box{
+    position: relative;
+    right: 20em;
+    top: -9.5em;
+    z-index: 100;
+}
+.box-images{
+    position: relative;
+    top: 2.5em;
+}
+.box-images2{
+    position: relative;
+    top: 3.5em;
+}
+.intern{
+    font-size: 0.9em;
+}
+    
+.internship{
+    font-size: 0.7em;
+    color: #828385;
+}
+.logo1{
+    position: relative;
+   bottom: 11em;
+    right: 17em;
+}
+
 /*******slide2*********/
 .slide2 h6,p{
 color: gray;
 }
 .courses{
     color: blueviolet;
+}
+/*boxes*/
+.card-icon{
+    background-color: purple;
+}
+/*counsulting*/
+
+.consult-ul{
+    padding-right: 0.85em;
+}
+
+.slider{
+    margin-top:50em ;
 }
 /*footer*/
 .footer-top-section{
@@ -87,6 +130,6 @@ color: gray;
     font-weight:lighter;
 }
 .footer-links a{
-    color: rgb(177, 172, 172);
+    color: rgb(177, 172, 171);
     text-decoration: none;
 }
