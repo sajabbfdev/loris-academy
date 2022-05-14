@@ -97,7 +97,13 @@ color: gray;
 .consult-ul{
     padding-right: 0.85em;
 }
-
+.style{
+    margin: 3.4em;
+}
+.loris-logo{
+    position: relative;
+    top: 24em;
+}
 .slider{
     margin-top:50em ;
 }
