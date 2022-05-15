@@ -83,16 +83,29 @@ body{
     right: 17em;
 }
 
-/*******slide2*********/
+/*-----slide2------*/
 .slide2 h6,p{
 color: gray;
 }
 .courses{
     color: blueviolet;
 }
-/*boxes*/
+/*-----slider------*/
+/*.card-icon {
+    width: 64px;
+    height: 64px;
+    background-color: var(--primary-color);
+    border-radius: 3px;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  */
 
-/*counsulting*/
+/*---boxes----*/
+
+/*-------counsulting------*/
 
 .consult-ul{
     padding-right: 0.85em;
@@ -104,6 +117,12 @@ color: gray;
     position: relative;
     top: 15em;
     right: 15em;
+}
+@media screen and (max-width: 992px){
+    .madarek{
+        
+        margin-top: em;
+    }
 }
 .slider{
     margin-top:50em ;
