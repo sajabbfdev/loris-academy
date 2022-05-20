@@ -50,6 +50,12 @@ body{
 .user{
     font-size: 0.1em;
 }
+/*----Swiper slider-----*/
+.info-links a{
+    text-decoration: none;
+    color: black;
+}
+
 /*********Internship********/
 .main-intern{
     position: relative;
@@ -126,6 +132,11 @@ color: gray;
         
         margin-top: em;
     }
+}
+/*----swiper-slider2---*/
+.infos-links a{
+    color: rgb(104, 19, 143);
+    text-decoration: none;
 }
 .slider{
     margin-top:50em ;
