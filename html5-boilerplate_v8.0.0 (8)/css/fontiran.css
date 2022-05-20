@@ -83,24 +83,148 @@ This set of fonts are used in this project under the license: (.....)
     url('../fonts/ttf/iranyekanwebextrabold.ttf') format('truetype');
 }
 
-@font-face {
-    font-family: iranyekan;
-    font-style: normal;
-    font-weight: 850;
-    src: url('../fonts/eot/iranyekanwebblack.eot');
-    src: url('../fonts/eot/iranyekanwebblack.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
-    url('../fonts/woff/iranyekanwebblack.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('../fonts/woff2/iranyekanwebblack.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
-    url('../fonts/ttf/iranyekanwebblack.ttf') format('truetype');
-}
+
 
 @font-face {
-    font-family: iranyekan;
+    font-family: yekanregular;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/YekanBakh.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: yekanmedium;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/YekanBakh-Medium.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: yekanbold;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/YekanBakh-Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: yekanlight;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/YekanBakh-Light.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: yekanheavy;
     font-style: normal;
     font-weight: 900;
-    src: url('../fonts/eot/iranyekanwebextrablack.eot');
-    src: url('../fonts/eot/iranyekanwebextrablack.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
-    url('../fonts/woff/iranyekanwebextrablack.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('../fonts/woff2/iranyekanwebextrablack.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
-    url('../fonts/ttf/iranyekanwebextrablack.ttf') format('truetype');
-}
+    src: url('../fonts/YekanBakh-Heavy.ttf') format('truetype');
+  }
+  
+  /* icomoon */
+  @font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?exw1fx');
+    src: url('../fonts/icomoon.eot?exw1fx#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?exw1fx') format('truetype'),
+      url('../fonts/icomoon.woff?exw1fx') format('woff'),
+      url('../fonts/icomoon.svg?exw1fx#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"],
+  [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-creativity:before {
+    content: "\e900";
+    color: #fafafa;
+  }
+  
+  .icon-graduation-cap:before {
+    content: "\e901";
+    color: #fafafa;
+  }
+  
+  .icon-Group-30:before {
+    content: "\e902";
+    color: #fff;
+  }
+  
+  .icon-Group-146:before {
+    content: "\e903";
+    color: #fafafa;
+  }
+  
+  .icon-Group-147:before {
+    content: "\e904";
+    color: #fafafa;
+  }
+  
+  .icon-Group-148:before {
+    content: "\e905";
+    color: #fafafa;
+  }
+  
+  .icon-Group-209:before {
+    content: "\e906";
+    color: #fafafa;
+  }
+  
+  .icon-Group-309:before {
+    content: "\e907";
+    color: #fff;
+  }
+  
+  .icon-Group-315:before {
+    content: "\e908";
+  }
+  
+  .icon-Group-324:before {
+    content: "\e909";
+    color: #616161;
+  }
+  
+  .icon-Group-576:before {
+    content: "\e90a";
+    color: #9164e8;
+  }
+  
+  .icon-Group-589:before {
+    content: "\e90b";
+    color: #9164e8;
+  }
+  
+  .icon-monitor:before {
+    content: "\e90c";
+    color: #fafafa;
+  }
+  
+  .icon-Page-1:before {
+    content: "\e90d";
+    color: #fafafa;
+  }
+  
+  .icon-profile-2:before {
+    content: "\e90e";
+    color: #fafafa;
+  }
+  
+  .icon-arrow-up2:before {
+    content: "\ea3a";
+  }
+  
+  

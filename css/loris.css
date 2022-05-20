@@ -104,7 +104,10 @@ color: gray;
   */
 
 /*---boxes----*/
-
+.card-icon{
+    color:white;
+    font-size: 2em;
+}
 /*-------counsulting------*/
 
 .consult-ul{
