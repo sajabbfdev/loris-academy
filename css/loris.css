@@ -120,7 +120,10 @@ color: gray;
     padding-right: 0.85em;
 }
 .style{
-    margin: 3.4em;
+    margin: 10em 3.4em 15em ;
+}
+.cons{
+    z-index: 1000000em;
 }
 .loris-logo{
     position: relative;
