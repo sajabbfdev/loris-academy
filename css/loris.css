@@ -30,7 +30,10 @@ body{
     background-size: cover;
     min-height: 100vh;
     padding: 250px 0 220px;
-    
+}
+.main-bg{
+    background-color: rgba(7, 6, 6,0.5);
+   
 }
 .main h2,.main h6{
     color: rgb(252, 252, 252);
@@ -55,7 +58,9 @@ body{
     text-decoration: none;
     color: black;
 }
-
+.swiper-overflow-container {
+    overflow-x: hidden; /* prevent horizontal scroll */
+}
 /*********Internship********/
 .main-intern{
     position: relative;
@@ -122,9 +127,7 @@ color: gray;
 .style{
     margin: 10em 3.4em 15em ;
 }
-.cons{
-    z-index: 1000000em;
-}
+
 .loris-logo{
     position: relative;
     top: 15em;
