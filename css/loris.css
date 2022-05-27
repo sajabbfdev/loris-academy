@@ -181,17 +181,14 @@ color: gray;
     color: rgb(177, 172, 171);
     text-decoration: none;
 }
-.footnote{
-position: relative;
-top: 2em;
-color: rgb(148, 140, 140);
-}
-.footnote::before{
-    content:"";
-    border-bottom:2px solid gray ;
-    display:flex ;
-    justify-content: center;
-    width:80em ;
-    position: absolute;
-    right: 9em;
-}
+.text-copyright {
+    border-top: 0.5px solid #e0e0e0;
+    text-align: center;
+  }
+  
+  .text-copyright p {
+    color: #c0bebe;
+    font: 15px/19px yekanregular;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
