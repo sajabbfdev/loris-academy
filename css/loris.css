@@ -61,6 +61,10 @@ body{
 .swiper-overflow-container {
     overflow-x: hidden; /* prevent horizontal scroll */
 }
+.icon-style{
+    background-color: blue;
+    font-size: 2em;
+}
 /*********Internship********/
 .main-intern{
     position: relative;
@@ -176,4 +180,18 @@ color: gray;
 .footer-links a{
     color: rgb(177, 172, 171);
     text-decoration: none;
+}
+.footnote{
+position: relative;
+top: 2em;
+color: rgb(148, 140, 140);
+}
+.footnote::before{
+    content:"";
+    border-bottom:2px solid gray ;
+    display:flex ;
+    justify-content: center;
+    width:80em ;
+    position: absolute;
+    right: 9em;
 }
