@@ -127,10 +127,48 @@ color: gray;
 
 .consult-ul{
     padding-right: 0.85em;
+    position: relative;
 }
 .style{
     margin: 10em 3.4em 15em ;
 }
+.lorem{
+    position: relative;
+}
+.form-inline {
+    width:55%;
+    background: #F6F6F6;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 100;
+    bottom: 1.5rem;
+    margin: 1rem 5rem -3rem;
+  }
+  
+  .form-inline input {
+    background-color: #F6F6F6;
+  }
+  :placeholder-shown {
+    border: 2px solid silver;
+  }
+  
+  .send-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #EFEFEF;
+    position: absolute;
+    left: 8px;
+    bottom: 4px;
+  }
+  
+  .send-btn span {
+    font-size: 16px;
+    color: #BDBDBD;
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+  }
 
 .loris-logo{
     position: relative;
@@ -144,12 +182,16 @@ color: gray;
     }
 }
 /*----swiper-slider2---*/
+/*blog section*/
+
+  .blog .swiper-btns-box{
+    position: absolute;
+    left: 1.5rem;
+    top:50%!important;
+    }
 .infos-links a{
     color: rgb(104, 19, 143);
     text-decoration: none;
-}
-.slider{
-    margin-top:50em ;
 }
 .date {
     width: 79px;
