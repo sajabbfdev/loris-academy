@@ -151,6 +151,15 @@ color: gray;
 .slider{
     margin-top:50em ;
 }
+.date {
+    width: 79px;
+    height: 29px;
+    background: #9164E8;
+    border-radius: 4px;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
 /*footer*/
 .footer-top-section{
     background-color:rgb(66, 64, 64);
