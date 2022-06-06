@@ -54,6 +54,12 @@ body{
     font-size: 0.1em;
 }
 /*----Swiper slider-----*/
+
+.swiper-btns-boxs{
+    position: relative;
+    top:10%!important;
+
+}
 .info-links a{
     text-decoration: none;
     color: black;
