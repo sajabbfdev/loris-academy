@@ -58,7 +58,21 @@ body{
 .swiper-btns-boxs{
     position: relative;
     top:10%!important;
+    width: 8rem;
 
+}
+.next1,.prev1{
+    width: 4em;
+    height: 4em;
+    display: inline-block;
+    border: 1px rgb(230, 223, 223) solid;
+    background-color: #c9c0c0;
+    color: #EFEFEF!important;
+    border-radius: 3px;
+    --swiper-navigation-size:2.5em;
+}
+.next1:hover,.prev1:hover{
+    background-color: #9164E8;
 }
 .info-links a{
     text-decoration: none;
