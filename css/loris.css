@@ -1,4 +1,146 @@
-body{
+
+@font-face {
+    font-family: yekanregular;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/YekanBakh.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: yekanmedium;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/YekanBakh-Medium.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: yekanbold;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/YekanBakh-Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: yekanlight;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/YekanBakh-Light.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: yekanheavy;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/YekanBakh-Heavy.ttf') format('truetype');
+  }
+  
+  /* icomoon */
+  @font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?exw1fx');
+    src: url('../fonts/icomoon.eot?exw1fx#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?exw1fx') format('truetype'),
+      url('../fonts/icomoon.woff?exw1fx') format('woff'),
+      url('../fonts/icomoon.svg?exw1fx#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"],
+  [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-creativity:before {
+    content: "\e900";
+    color: #fafafa;
+  }
+  
+  .icon-graduation-cap:before {
+    content: "\e901";
+    color: #fafafa;
+  }
+  
+  .icon-Group-30:before {
+    content: "\e902";
+    color: #fff;
+  }
+  
+  .icon-Group-146:before {
+    content: "\e903";
+    color: #fafafa;
+  }
+  
+  .icon-Group-147:before {
+    content: "\e904";
+    color: #fafafa;
+  }
+  
+  .icon-Group-148:before {
+    content: "\e905";
+    color: #fafafa;
+  }
+  
+  .icon-Group-209:before {
+    content: "\e906";
+    color: #fafafa;
+  }
+  
+  .icon-Group-309:before {
+    content: "\e907";
+    color: #fff;
+  }
+  
+  .icon-Group-315:before {
+    content: "\e908";
+  }
+  
+  .icon-Group-324:before {
+    content: "\e909";
+    color: #616161;
+  }
+  
+  .icon-Group-576:before {
+    content: "\e90a";
+    color: #9164e8;
+  }
+  
+  .icon-Group-589:before {
+    content: "\e90b";
+    color: #9164e8;
+  }
+  
+  .icon-monitor:before {
+    content: "\e90c";
+    color: #fafafa;
+  }
+  
+  .icon-Page-1:before {
+    content: "\e90d";
+    color: #fafafa;
+  }
+  
+  .icon-profile-2:before {
+    content: "\e90e";
+    color: #fafafa;
+  }
+  
+  .icon-arrow-up2:before {
+    content: "\ea3a";
+  }
+  body{
     margin: 0!important;
     background-color: #fafafc!important;
 }
@@ -53,6 +195,30 @@ body{
 .user{
     font-size: 0.1em;
 }
+/*********swiper slider********/
+.next1,.prev1{
+    width: 3rem;
+    height: 3rem;
+    box-shadow: 0px 4px 12px #1b17170d;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    display: inline-block;
+    color: #300909;
+    text-align: center;
+    --swiper-navigation-size: 24px;
+    line-height: 3rem;
+}
+.swiper-btns-boxs{
+    width: 8rem;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 2rem;
+  }
+.next1:hover .prev1:hover{
+    color: #9164E8;
+}
 /*********Internship********/
 .main-intern{
     position: relative;
@@ -93,8 +259,58 @@ color: gray;
 .courses{
     color: blueviolet;
 }
+/*boxes*/
+.card-icon{
+    font-size:2rem ;
+    color: #EFEFEF;
+}
 /*counsulting*/
+.style{
+    margin: 10rem 4rem;
+}
+.form-inline{
+    width: 55%;
+    position: relative;
+    top: 14em;
+    right: 5em;
 
+}
+.form-control{
+    background-color: #828385;
+    position: relative;
+}
+.send-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #EFEFEF;
+    position: absolute;
+    left: 8px;
+    bottom: 4px;
+}
+
+.loris-logo{
+    position: relative;
+    top: 10rem;
+    right: 20rem;
+}
+/*blog section*/
+.blog-recent{
+
+}
+.infos-links a{
+    color: #828385;
+  text-decoration: none;
+}
+.date{
+    width: 79px;
+    height: 29px;
+    background: #9164E8;
+    border-radius: 4px;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
 /*footer*/
 .footer-top-section{
     background-color:rgb(66, 64, 64);
@@ -126,3 +342,8 @@ color: gray;
     text-decoration: none;
 }
 
+.text-copyright{
+    border-top: 0.5px solid #e0e0e0;
+    text-align: center;
+    padding-top: 2rem;
+}
