@@ -1,0 +1,9 @@
+body{
+    margin:0 !important; 
+    background-color:fuchsia !important;
+}
+.header{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}

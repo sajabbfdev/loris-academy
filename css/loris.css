@@ -347,3 +347,15 @@ color: gray;
     text-align: center;
     padding-top: 2rem;
 }
+.header2{
+  background-color: rgb(255, 255, 255);
+}
+.nav2{
+  padding-left: 6em;
+  padding-right: 6em;
+  padding-bottom: 1.1em!important;
+  padding-top: 1.1em!important;/*look for better solution*/
+}
+.main-link1{
+  color: rgb(0, 0, 0)!important;
+}
