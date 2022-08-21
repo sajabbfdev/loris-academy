@@ -173,10 +173,22 @@
     background-image: url('../img/Mask\ Group\ 1.png');
     background-position:center ;
     background-size: cover;
-    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    min-height: 500px;
     padding: 250px 0 220px;
-    
+    isolation: isolate;
 }
+
+.main::after{
+  content:' ';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: black;
+  opacity: 0.5;
+}
+
 .main h2,.main h6{
     color: rgb(252, 252, 252);
 
@@ -347,6 +359,7 @@ color: gray;
     text-align: center;
     padding-top: 2rem;
 }
+/****page2****/
 .header2{
   background-color: rgb(255, 255, 255);
 }
